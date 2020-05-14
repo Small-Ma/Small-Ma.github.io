@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Small-Ma.github.io</id>
     <title>Gridea</title>
-    <updated>2020-05-14T04:38:36.253Z</updated>
+    <updated>2020-05-14T09:20:18.535Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Small-Ma.github.io"/>
     <link rel="self" href="https://Small-Ma.github.io/atom.xml"/>
@@ -10,6 +10,29 @@
     <logo>https://Small-Ma.github.io/images/avatar.png</logo>
     <icon>https://Small-Ma.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[偏相关系数分析]]></title>
+        <id>https://Small-Ma.github.io/post/KUENqmrkt/</id>
+        <link href="https://Small-Ma.github.io/post/KUENqmrkt/">
+        </link>
+        <updated>2020-05-14T09:16:40.000Z</updated>
+        <content type="html"><![CDATA[<pre><code>  相关分析通过计算两个变量之间的相关系数，分析变量间线性相关的程度，在多元相关分析中，由于受到其他变量的影响，皮尔森相关系数只能从表面上反映两个变量相关的性质，往往不能真实地反映变量之间的线性相关程度，甚至会给人造成相关的假象，因此，在某些场合，简单的皮尔森相关系数并不是刻画相关关系的本质统计量。
+  - 若控制 1 个变量时，则成为 1 阶偏相关系数
+  - 若控制 2 个变量事，则成为 2 阶偏相关系数
+  - 当控制 0 个变量时，则成为零阶偏相关系数，即相关系数
+</code></pre>
+<pre><code class="language-Python"># 利用pandas
+df=pd.DataFrame([x1,x2,x3],index=['a','b','c']).T
+print('数据:\n',df)
+print('相关系数矩阵为：\n',df.corr())
+r_ab=df.a.corr(df.b)
+r_ac=df.a.corr(df.c)
+r_bc=df.b.corr(df.c)
+r_ab_c=(r_ab-r_ac*r_bc)/(((1-r_ac**2)**0.5)*((1-r_bc**2)**0.5))
+print('ab_c的一阶偏相关系数为：',r_ab_c)
+</code></pre>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[热搜词挖掘]]></title>
         <id>https://Small-Ma.github.io/post/GDVkfkmxJ/</id>
