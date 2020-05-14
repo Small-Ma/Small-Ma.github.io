@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Small-Ma.github.io</id>
     <title>Gridea</title>
-    <updated>2020-05-14T04:37:26.100Z</updated>
+    <updated>2020-05-14T04:38:36.253Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Small-Ma.github.io"/>
     <link rel="self" href="https://Small-Ma.github.io/atom.xml"/>
@@ -10,6 +10,56 @@
     <logo>https://Small-Ma.github.io/images/avatar.png</logo>
     <icon>https://Small-Ma.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[热搜词挖掘]]></title>
+        <id>https://Small-Ma.github.io/post/GDVkfkmxJ/</id>
+        <link href="https://Small-Ma.github.io/post/GDVkfkmxJ/">
+        </link>
+        <updated>2020-05-14T04:38:27.000Z</updated>
+        <content type="html"><![CDATA[<p>搜索频次大于 1000<br>
+搜索频次在某个范围内突然增长</p>
+<p>搜索内容有很好的结果,在搜索结果中有</p>
+<p>季节性词<br>
+站外链接引导</p>
+<p>历史热搜词的样本,上线时间</p>
+<p>计算数据频率:过去 1h,过去 6h,过去 12h,过去 24h<br>
+会有很多重复,</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[用户画像草稿]]></title>
+        <id>https://Small-Ma.github.io/post/r7L7Alopj/</id>
+        <link href="https://Small-Ma.github.io/post/r7L7Alopj/">
+        </link>
+        <updated>2020-05-14T04:37:59.000Z</updated>
+        <content type="html"><![CDATA[<p>已婚,河北省,石家庄市,二线城市,二手车,奥迪,一汽-大众奥迪,奥迪A4L,合资,否,20万-30万（含）,中型车,德国,中国,三厢车<br>
+已婚,河北省,沧州市,四线城市,二手车,福特,江铃福特,全顺,合资,否,10万-15万（含）,18,美国,中国,载客车中型<br>
+已婚,云南省,红河哈尼族彝族自治州,五线城市,新车,长安轻型车,长安轻型车,神骐T10,自主,否,5万（含）以下,19,中国,中国,载客车房车<br>
+已婚,山西省,朔州市,五线城市,新车,奇瑞,奇瑞汽车,艾瑞泽5,自主,否,5万-10万（含）,紧凑型车,中国,中国,三厢车<br>
+未婚,江西省,宜春市,三线城市,二手车,起亚,东风悦达起亚,起亚K3,合资,否,10万-15万（含）,紧凑型车,韩国,中国,三厢车<br>
+已婚,广东省,河源市,四线城市,二手车,宝马,华晨宝马,宝马1系,合资,否,20万-30万（含）,紧凑型车,德国,中国,三厢车<br>
+已婚,河北省,承德市,四线城市,新车,荣威,上汽荣威,荣威RX3,自主,否,5万-10万（含）,mpv,中国,中国,城市型SUV<br>
+已婚,河南省,商丘市,四线城市,新车,吉利,吉利汽车,帝豪GS,自主,否,5万-10万（含）,suv,中国,中国,城市型SUV<br>
+已婚,广东省,东莞市,二线城市,二手车,宝骏,上汽通用五菱,宝骏530,自主,否,10万-15万（含）,suv,中国,中国,城市型SUV<br>
+已婚,内蒙古自治区,锡林郭勒盟,五线城市,新车,本田,广汽本田,凌派,合资,否,10万-15万（含）,紧凑型车,日本,中国,三厢车</p>
+<p>cust_city_level_name, car_type_name, is_new_energy_car, refer_price_range</p>
+<p>marriage_state_name,预测变量<br>
+cust_province_name,     yc_mds.mds_flw_quote_log_day  province_name<br>
+cust_city_name,        yc_mds.mds_flw_quote_log_day  city_name yc_da_pds.gdp_data   city_name<br>
+cust_city_level_name,     yc_da_pds.gdp_data  city_rank<br>
+car_type_name,       是否是二手车没找到<br>
+master_brand_name,   yc_ods.ods_app_car_basic_day_a master_name<br>
+make_name,         yc_ods.ods_app_car_basic_day_a brand_name<br>
+series_name,       车系名 yc_ods.ods_app_car_basic_day_a serial_name<br>
+prod_mode,			自主还是合资没找到<br>
+is_new_energy_car,   是否新能源没找到<br>
+refer_price_range,  价格 yc_ods.ods_app_car_basic_day_a refer_price<br>
+series_level_name,<br>
+brand_country_name,<br>
+make_country_name,<br>
+style_body_type_name</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[搜索用户群研究]]></title>
         <id>https://Small-Ma.github.io/post/PLhj_y8vv/</id>
