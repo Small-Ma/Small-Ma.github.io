@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Small-Ma.github.io</id>
     <title>Gridea</title>
-    <updated>2020-05-14T03:31:48.739Z</updated>
+    <updated>2020-05-14T04:37:26.100Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Small-Ma.github.io"/>
     <link rel="self" href="https://Small-Ma.github.io/atom.xml"/>
@@ -10,6 +10,66 @@
     <logo>https://Small-Ma.github.io/images/avatar.png</logo>
     <icon>https://Small-Ma.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[搜索用户群研究]]></title>
+        <id>https://Small-Ma.github.io/post/PLhj_y8vv/</id>
+        <link href="https://Small-Ma.github.io/post/PLhj_y8vv/">
+        </link>
+        <updated>2020-05-14T04:36:40.000Z</updated>
+        <content type="html"><![CDATA[<p>背景</p>
+<ul>
+<li>通过相关性分析发现「搜索渗透率」和「用户次日留存」、「用户七日留存」、「十五日留存」成正相关</li>
+<li>假设提高搜索渗透率可以提高用户留存</li>
+</ul>
+<p>故以提升搜索渗透率为目的对数据进行摸底</p>
+<ul>
+<li>了解「不搜索」用户的特征</li>
+</ul>
+<p>分析方向</p>
+<p>维度</p>
+<ul>
+<li>注册时长</li>
+<li>访问频率</li>
+<li>性别</li>
+<li>地理位置</li>
+<li>年龄</li>
+<li>兴趣分类（领域）</li>
+<li>搜索分类（领域）</li>
+</ul>
+<p>分析结论</p>
+<p>新用户对搜索历史使用频率较高</p>
+<p>较新的用户</p>
+<p>低线城市用户</p>
+<p>引导词</p>
+<p>优化方向</p>
+<p>无搜索用户 -&gt; 有搜索用户</p>
+<p>有搜索用户 -&gt; 提高搜索频率</p>
+<p>落地方案建议</p>
+<ul>
+<li>不同的内容池
+<ul>
+<li>基于用户搜索历史
+<ul>
+<li>上一次搜索历史</li>
+<li>随机取一个搜索历史</li>
+</ul>
+</li>
+<li>基于地理位置</li>
+<li>基于感兴趣的领域</li>
+<li>看热闹的领域</li>
+</ul>
+</li>
+</ul>
+<p>实验</p>
+<p>实体词</p>
+<p>预置词</p>
+<p>有领域兴趣的</p>
+<p>没有领域兴趣的</p>
+<p>特定词轮播</p>
+<p>后续方案进展收益</p>
+<p>后续迭代方向</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Hello Gridea]]></title>
         <id>https://Small-Ma.github.io/post/hello-gridea/</id>
