@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Small-Ma.github.io</id>
     <title>Gridea</title>
-    <updated>2020-05-14T09:20:18.535Z</updated>
+    <updated>2020-05-14T09:34:56.317Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Small-Ma.github.io"/>
     <link rel="self" href="https://Small-Ma.github.io/atom.xml"/>
@@ -22,6 +22,13 @@
   - 当控制 0 个变量时，则成为零阶偏相关系数，即相关系数
 </code></pre>
 <pre><code class="language-Python"># 利用pandas
+x1=np.random.rand(10)
+x2=np.random.rand(10)
+x3=np.random.rand(10)
+print(x1)
+print(x2)
+print(x3)
+
 df=pd.DataFrame([x1,x2,x3],index=['a','b','c']).T
 print('数据:\n',df)
 print('相关系数矩阵为：\n',df.corr())
@@ -31,6 +38,11 @@ r_bc=df.b.corr(df.c)
 r_ab_c=(r_ab-r_ac*r_bc)/(((1-r_ac**2)**0.5)*((1-r_bc**2)**0.5))
 print('ab_c的一阶偏相关系数为：',r_ab_c)
 </code></pre>
+<h1> 偏相关系数和偏回归系数
+<p><b>偏相关系数 Partial correlation coefficient<br>
+在多元回归分析中，在消除其他变量影响的条件下，所计算的某两变量之间的相关系数。</p>
+<p><b>偏回归系数 partial regression coefficient<br>
+在多元回归分析中，随机因变量对各个自变量的回归系数，表示各自变量对随机变量的影响程度</p>
 ]]></content>
     </entry>
     <entry>
