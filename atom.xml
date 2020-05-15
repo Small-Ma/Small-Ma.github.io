@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://Small-Ma.github.io</id>
     <title>Gridea</title>
-    <updated>2020-05-14T09:34:56.317Z</updated>
+    <updated>2020-05-15T06:52:42.269Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://Small-Ma.github.io"/>
     <link rel="self" href="https://Small-Ma.github.io/atom.xml"/>
@@ -10,6 +10,25 @@
     <logo>https://Small-Ma.github.io/images/avatar.png</logo>
     <icon>https://Small-Ma.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[假设检验]]></title>
+        <id>https://Small-Ma.github.io/post/P4WSpeKGC/</id>
+        <link href="https://Small-Ma.github.io/post/P4WSpeKGC/">
+        </link>
+        <updated>2020-05-14T23:57:24.000Z</updated>
+        <content type="html"><![CDATA[<p>利用样本检验各种统计断言是否属实
+<ul>
+<li>确定要进行检验的假设</li>
+<li>选择检验统计量</li>
+<li>确定用于做决策的拒绝域</li>
+<li>求出检验统计量的 p 值</li>
+<li>查看样本结果是否位于拒绝域内</li>
+<li>作出决策</li>
+</ul>
+<p>p 值就是原假设真实的概率，一般要推翻原假设的话，那么需要 p&lt;0.5</p>
+<p>参考资料：https://zhuanlan.zhihu.com/p/37265478</p>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[偏相关系数分析]]></title>
         <id>https://Small-Ma.github.io/post/KUENqmrkt/</id>
